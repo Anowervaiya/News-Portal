@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,37 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <title>News Portal</title>
 </head>
-<body>
-  <header class="my-8 container mx-auto">
-<!-- navigation  -->
-    <div class="navbar bg-base-100">
-      <div class="flex-1">
-        <a class="btn btn-ghost text-xl">daisyUI</a>
-      </div>
+
+<body class="bg-[#edebeb]">
+  <header class=" container mx-auto  ">
+    <!-- navigation  -->
+    <div class="flex justify-between py-6 bg-[#edebeb]">
+
+      <h1 class="text-2xl font-bold">Protom <span class="text-info">Alo</span></h1>
+
       <div class="flex-none *:ml-4">
-        <button class="btn">link</button>
-        <button class="btn">Blog</button>
+        <button class="btn btn-info">link</button>
+        <button class="btn btn-info">Blog</button>
       </div>
     </div>
-<hr>
+    <hr>
     <!-- all button section  -->
-    <div id="allButtonContainer" class="mt-10">
-             <p>akldjfl</p>
+    <div id="allButtonContainer" class="my-8  flex justify-between flex-wrap">
+
+    </div>
+    <div class="flex">
+      <input class="w-full p-3 mb-10 bg-white rounded-lg" type="text" placeholder="Search here with a Cetagory ID">
+      <button class="btn btn-info text-xl  ">Search</button>
     </div>
   </header>
+  <main class="container mx-auto">
+    <div id="cardContainer" class="*:mb-4">
+
+
+    </div>
+
+  </main>
   <script src="js/index.js"></script>
 </body>
+
 </html>
